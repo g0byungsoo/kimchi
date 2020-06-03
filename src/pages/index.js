@@ -45,6 +45,7 @@ const IndexPage = () => (
 	  awesome! 😝
 	  <br />
 	  <br />
+	  <Typist.Delay ms={400} />
 	  Click
 	  {' '}
 	  <AniLink paintDrip color="green" to="about">
