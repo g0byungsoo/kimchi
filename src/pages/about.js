@@ -13,7 +13,7 @@ const About = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <AniLink swipe top="exit" to="/">👈 Go back to home</AniLink>
+    <AniLink fade to="/">👈 Go back to home</AniLink>
   </Layout>
 )
 

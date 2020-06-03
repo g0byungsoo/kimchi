@@ -24,7 +24,7 @@ const IndexPage = () => (
     	<Typist.Backspace count={5} delay={500} />
     	thoughts.
     	<Typist.Delay ms={200} />
-    	<Typist.Backspace count={9} delay={500} />
+    	<Typist.Backspace count={12} delay={500} />
     	what I love 💕
     	<Typist.Delay ms={200} />
     	<Typist.Backspace count={14} delay={400} />
