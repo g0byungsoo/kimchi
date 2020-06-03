@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Kimchi Blog`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Kimchi is a delicious probiotic food. It's spicy, sour, and umami!`,
+    author: `@g0byungsoo`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,18 +13,19 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-transition-link`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Kimchi Blog`,
+        short_name: `Kimchi`,
         start_url: `/`,
-        background_color: `#FF4136`,
-        theme_color: `#FF4136`,
+        background_color: `#2ECC40`,
+        theme_color: `#2ECC40`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/kimchi.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
